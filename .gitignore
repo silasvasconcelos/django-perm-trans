@@ -1,2 +1,11 @@
 # Environment
 .idea/
+*.sqlite3
+manage.py
+core/
+
+# OS generated files
+.DS_Store
+
+# Cache files
+*.pyc
