@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-perm-trans"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple way to translate the permissions of your Django project."
 authors = ["Silas Vasconcelos <silasvasconcelos@hotmail.com.br>"]
 license = "MIT"
