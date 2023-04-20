@@ -23,10 +23,10 @@ def str_override(perm):
     """
     perm_words = []
 
-    if not DPT_REMOVE_APP:
+    if DPT_REMOVE_APP:
         perm_words.append(perm.content_type.app_label)
 
-    if not DPT_REMOVE_MODEL:
+    if DPT_REMOVE_MODEL:
         perm_words.append(perm.content_type.name)
 
     perm_words.append(perm.name)
